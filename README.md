@@ -7,7 +7,7 @@ Tachyon Protocol will use bytes as the equivalent measurement as bandwidth and u
 
 - A expects to use nMB bandwidth
 - A and B negotiate the Trading channel
- - A puts nMB bandwidth worth of token m as the security deposit, set the bandwidth/token exchange rate and packet loss i, then writes [nMB, Price(/MB), Token(m), Packet Loss(i)] into the smart contract, and pays for smart contract fee;
+  - A puts nMB bandwidth worth of token m as the security deposit, set the bandwidth/token exchange rate and packet loss i, then writes [nMB, Price(/MB), Token(m), Packet Loss(i)] into the smart contract, and pays for smart contract fee;
  - A receives a channel ID and notify B to confirm this ID;
  - B looks up the ID and verify the channel information, then confirms Payment channel and pays for smart contract fee;
 
